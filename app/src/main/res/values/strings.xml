@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mantenimiendo-de-naves</string>
+
+    <string name="txtmantenimiento">CONTROL Y MANTENIMIENTO DE NAVES</string>
+    <string name="txtUsuario">Correo</string>
+    <string name="txtContraseña">Contraseña</string>
+    <string name="btniniciar_sesion">INICIAR SESIÓN</string>
+    <string name="btnRegistro">REGISTRARSE</string>
+    <string name="txtrestaurar">RESTAURAR CONTRASEÑA</string>
+
+</resources>
