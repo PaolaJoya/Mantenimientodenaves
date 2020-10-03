@@ -48,7 +48,7 @@
                     android:layout_height="50dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/correo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#00FFFFFF"
@@ -67,7 +67,7 @@
                     android:layout_height="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/contraseña"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#00FFFFFF"
@@ -86,6 +86,7 @@
                     style="@android:style/Widget.Button.Inset"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:onClick="irAMenu"
                     android:text="@string/btniniciar_sesion"
                     android:textColor="#000000"
                     android:textColorHighlight="#FFFFFF"

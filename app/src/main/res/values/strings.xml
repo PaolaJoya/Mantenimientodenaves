@@ -17,8 +17,8 @@
     <string name="txtContraseñaR">Contraseña</string>
     <string name="txtContraseñaconf">Confirmar contraseña</string>
     <string name="txtdocumento">Número de documento</string>
-    <string name="txtTelefono">Telefono</string>
-    <string name="txtCodigo">Codigo de Ingreso</string>
+    <string name="txtTelefono">Télefono</string>
+    <string name="txtCodigo">Código de Ingreso</string>
     <string name="btnregistrarse">Registrarse</string>x
     <string-array name="tipodocumento">
         <item>Tipo de documento</item>

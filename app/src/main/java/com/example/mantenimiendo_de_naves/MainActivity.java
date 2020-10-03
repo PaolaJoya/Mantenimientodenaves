@@ -7,10 +7,12 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    private TextView correo;
+    private TextView contraseña;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void irARegistro (View view){
-        Intent i =new Intent(this, Registro.class);
-        startActivity(i);
+        Intent registro =new Intent(this, Registro.class);
+        startActivity(registro);
+    }
+
+    public void irAMenu (View view){
+        Intent menu =new Intent(this, Menu.class);
+        startActivity(menu);
     }
 }
