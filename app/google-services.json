@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717572559653",
+    "firebase_url": "https://mantenimiendo-de-naves.firebaseio.com",
+    "project_id": "mantenimiendo-de-naves",
+    "storage_bucket": "mantenimiendo-de-naves.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717572559653:android:94d0c8869cb8dc4b6d40cc",
+        "android_client_info": {
+          "package_name": "com.example.mantenimiendo_de_naves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717572559653-vk7u0ju4ltb67keb5dqs9i1j58hg3tud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mantenimiendo_de_naves",
+            "certificate_hash": "dd2a045c9349cf3ef2f39ef689482f9d3fe7c125"
+          }
+        },
+        {
+          "client_id": "717572559653-1s5h71jmb9puabaeu3k9gri9eqn2jpq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOL5t0WAajvLUUewXjcBIAQ0ttYXJdCOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717572559653-1s5h71jmb9puabaeu3k9gri9eqn2jpq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

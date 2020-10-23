@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mantenimiendo-de-naves</string>
+    <string name="app_name">Mantenimiendo de naves</string>
 
     <string name="txtmantenimiento">CONTROL Y MANTENIMIENTO DE NAVES</string>
     <string name="txtUsuario">Correo</string>

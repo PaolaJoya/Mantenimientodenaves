@@ -4,152 +4,172 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#22000000"
+    android:background="@drawable/registro"
     android:gravity="center_horizontal|center_vertical"
     tools:context=".Registro">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#95514A4A"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <Space
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="@string/txtRegistro"
-                android:textColor="#4CAF50"
-                android:textSize="30sp"
-                android:textStyle="bold|italic" />
+                android:orientation="vertical">
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
 
-            <EditText
-                android:id="@+id/nombres"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:digits="QWERTYUIOPASDFGHJKLÑZXCVBNMqwertzuiopasdfghjklñyxcvbnm"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtNombres"
-                android:inputType="textPersonName"
-                android:textColorHighlight="#000000"
-                android:textColorHint="#000000"
-                android:textColorLink="#000000"
-                android:textCursorDrawable="@null" />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/txtRegistro"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
 
-            <EditText
-                android:id="@+id/apellidos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:digits="QWERTYUIOPASDFGHJKLÑZXCVBNMqwertzuiopasdfghjklñyxcvbnm"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtApellidos"
-                android:inputType="textPersonName"
-                android:textColorHint="#000000" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
 
-            <EditText
-                android:id="@+id/correo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtCorreo"
-                android:inputType="textEmailAddress"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/nombres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="QWERTYUIOPASDFGHJKLÑZXCVBNMqwertzuiopasdfghjklñyxcvbnm"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtNombres"
+                    android:inputType="textPersonName"
+                    android:scrollbarThumbHorizontal="@color/design_default_color_background"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#000000"
+                    android:textCursorDrawable="@null" />
 
-            <EditText
-                android:id="@+id/confcorreo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtConfirmacion"
-                android:inputType="textEmailAddress"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/apellidos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:digits="QWERTYUIOPASDFGHJKLÑZXCVBNMqwertzuiopasdfghjklñyxcvbnm"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtApellidos"
+                    android:inputType="textPersonName"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textCursorDrawable="@null" />
 
-            <EditText
-                android:id="@+id/contraseña"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtContraseñaR"
-                android:inputType="textPassword"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/correo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtCorreo"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textCursorDrawable="@null" />
 
-            <EditText
-                android:id="@+id/confcontraseña"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtContraseñaconf"
-                android:inputType="textPassword"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/confcorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtConfirmacion"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#FFFFFF" />
 
-            <Spinner
-                android:id="@+id/tipodocumento"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:entries="@array/tipodocumento" />
+                <EditText
+                    android:id="@+id/contraseña"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtContraseñaR"
+                    android:inputType="textPassword"
+                    android:textColorHint="#FFFFFF" />
 
-            <EditText
-                android:id="@+id/documento"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtdocumento"
-                android:inputType="number"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/confcontraseña"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtContraseñaconf"
+                    android:inputType="textPassword"
+                    android:textColorHint="#FFFFFF" />
 
-            <EditText
-                android:id="@+id/telefono"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtTelefono"
-                android:inputType="number"
-                android:textColorHint="#000000" />
+                <Spinner
+                    android:id="@+id/tipodocumento"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="205dp"
+                    android:layout_height="30dp"
+                    android:background="#918B8B"
+                    android:entries="@array/tipodocumento" />
 
-            <EditText
-                android:id="@+id/codigo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/txtCodigo"
-                android:inputType="textPersonName"
-                android:textColorHint="#000000" />
+                <EditText
+                    android:id="@+id/documento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtdocumento"
+                    android:inputType="number"
+                    android:textColorHint="#FFFFFF" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/telefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtTelefono"
+                    android:inputType="number"
+                    android:textColorHint="#FFFFFF" />
 
-            <Button
-                android:id="@+id/button4"
-                style="@android:style/Widget.Button.Inset"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="Registrar"
-                android:text="@string/btnregistrarse" />
+                <EditText
+                    android:id="@+id/codigo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/txtCodigo"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#FFFFFF" />
 
-        </LinearLayout>
-    </ScrollView>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="Registrar"
+                    android:text="@string/btnregistrarse" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
